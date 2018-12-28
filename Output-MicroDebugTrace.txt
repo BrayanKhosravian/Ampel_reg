@@ -1,0 +1,11 @@
+﻿Launching Debugger...
+   - Serial debug will start immediately. WiFi (or gdb) debug will start a few seconds or a short time after the remote device connects to the network.
+   - Switch on 'vmicro>debugger>full speed' to prevent debugger message throttling. (read the docs)
+   - If 'in-break live watch' is disabled, continue an existing paused debug session by sending the character 'c' to the board using the Serial window.
+   - If uploading on WiFi but debug is on Serial then it is possible the cpu will be in debug break when OTA upload is attempting connect. If this is the case then sending char 'c' using the serial/debug terminal will force the mcu to continue (like F5).
+   - WiFi debug? Wifi debug is not fully supported yet. Use the vMicro>Debugger menu to set an alternative debug port such as Serial (default speed is 115k)
+   - To view debug messages without trace messages use the 'message windows' option on the monitor window.
+   - Switch off this message and other Tutorial messages using the 'vMicro>General' menu
+Program Running 'Ampel_reg'
+22:33:33.254    Ampel_reg.ino, line 44		millis()=3012
+     Millis is currently 3012.
